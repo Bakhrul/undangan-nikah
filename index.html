@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
     <title>Undangan</title>
     <link rel="stylesheet" href="fonts/Gistesy.ttf">
     <link rel="stylesheet" href="fonts/MadelynFill-Trial-Regular.ttf">
@@ -58,7 +59,7 @@
     </style>
 </head>
 
-<body style="background-color: #fff;">
+<body style="background-color: #fff;">    
     <div id="fullpage">
         <div class="section overflow-hidden" id="section1">
             <div style="height:100%;max-width: 420px;width:100%;overflow: hidden;display: block;margin: auto;">
@@ -270,17 +271,16 @@
                                 Steve & Vee
                             </div>
                             <div style="position: absolute;right: 0;bottom: 40px;">
-                                <a style="text-decoration: none !important;"
-                                    href="javascript:void(0)">
+                                <a style="text-decoration: none !important;" href="javascript:void(0)">
                                     <div id="regno-join-result"
                                         style="font-size:18px;font-weight:600;text-align:center;text-decoration:none !important;background:#feccbb;padding:10px 25px;border-radius:100px;color: #624c38;width:40px;border-top-right-radius: 0;border-bottom-right-radius: 0;">
-                                        
+
                                     </div>
                                 </a>
                             </div>
                             <div
-                            style="font-size:14px;font-family: 'CormorantGaramond';color:#e37b3a;text-align:center;padding-top: 30px;">
-                            Dress Code Pastel Color (No Peach / White)</div>
+                                style="font-size:14px;font-family: 'CormorantGaramond';color:#e37b3a;text-align:center;padding-top: 30px;">
+                                Dress Code Pastel Color (No Peach / White)</div>
                         </div>
                     </div>
                     <div style="position: relative;" class="group-not-join d-none">
@@ -340,7 +340,8 @@
                                 KEVIN CHANDRA</div>
                             <div
                                 style="padding-top:20px;font-family: 'CormorantGaramond';color: #624c38;text-align: center;font-size: 22px;font-weight: 500;">
-                                733 089 7273&ensp;<i onclick="copyRekening()" style="color:#e37b3a" class="bi bi-copy"></i></div>
+                                733 089 7273&ensp;<i onclick="copyRekening()" style="color:#e37b3a"
+                                    class="bi bi-copy"></i></div>
                             <div
                                 style="padding-top:20px;font-family: 'CormorantGaramond';color: #624c38;text-align: center;font-size: 22px;font-weight: 500;">
                                 BANK CENTRAL ASIA<br>(BCA)</div>
@@ -409,14 +410,9 @@
         var myFullpage = new fullpage('#fullpage');
         typeRegister = 1;
         $(document).ready(function () {
-            $.ajax({
-                url: 'https://api.ezlink.dev/steven/dash/report',
-                type: 'GET',
-                data: {
-                    status: 2,
-                }
-            })
-        })
+         
+        
+        })        
 
         function changeType(type) {
             typeRegister = type
@@ -486,7 +482,7 @@
             });
         }
 
-        function copyRekening(){
+        function copyRekening() {
             navigator.clipboard.writeText('7330897273');
             Swal.fire("Copied!");
         }
