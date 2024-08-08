@@ -26,13 +26,21 @@
             src: url('fonts/CormorantGaramond-Regular.ttf');
         }
 
+        .bi-heart-fill {
+            color: #f3f3f3;
+        }
+
+        .bi-heart-fill.active {
+            color: #e37b3a;
+        }
+
         body {
             padding: 0 !important;
             margin: 0 !important;
         }
 
         .d-none {
-            display: none;
+            display: none !important;
         }
 
         .overflow-hidden {
@@ -123,26 +131,38 @@
             <div style="height:100%;max-width: 420px;width:100%;overflow: hidden;display: block;margin: auto;">
                 <div style="height:100%;background-color: #fff;width:100%;overflow: hidden;">
                     <div style="position: relative;">
-                        <img src="images/header-1.png" style="width:320px;position: absolute;top:-90px;right: -90px;">                        
+                        <img src="images/header-1.png" style="width:320px;position: absolute;top:-90px;right: -90px;">
                         <div style="z-index:2;position: relative;padding: 5px 20px;">
-                            <div
-                                style="font-family: 'Gistesy';font-size: 40px;color:#624c38;margin-top: 130px;">Event</div>
+                            <div style="font-family: 'Gistesy';font-size: 40px;color:#624c38;margin-top: 130px;">Event
+                            </div>
                         </div>
                         <div
                             style="z-index:2;margin-left:30px;border-top:2px #e37b3a solid;padding-top: 10px;max-width: 200px;display: block;margin-top: 0 !important;">
                         </div>
                         <div style="padding:0 30px;background-color: #fff;z-index: 99999;">
-                            <div style="color:#624c38;font-family: 'CormorantGaramond';font-size: 18px;">Holy Matrimony</div>
-                            <div style="color:#624c38;padding-top:10px;font-family: 'CormorantGaramond';font-size: 14px;">Saturday, 14 September 2024<br>at 09.30 - 10:30 WITA</div>
-                            <div style="padding-top:20px;color:#624c38;font-family: 'CormorantGaramond';font-size: 18px;">Wedding Reception</div>
-                            <div style="color:#624c38;padding-top:10px;font-family: 'CormorantGaramond';font-size: 14px;">Saturday, 14 September 2024
+                            <div style="color:#624c38;font-family: 'CormorantGaramond';font-size: 18px;">Holy Matrimony
+                            </div>
+                            <div
+                                style="color:#624c38;padding-top:10px;font-family: 'CormorantGaramond';font-size: 14px;">
+                                Saturday, 14 September 2024<br>at 09.30 - 10:30 WITA</div>
+                            <div
+                                style="padding-top:20px;color:#624c38;font-family: 'CormorantGaramond';font-size: 18px;">
+                                Wedding Reception</div>
+                            <div
+                                style="color:#624c38;padding-top:10px;font-family: 'CormorantGaramond';font-size: 14px;">
+                                Saturday, 14 September 2024
                                 <br>at 12.30 - 15:00 WITA</div>
-                            <div style="padding-top:20px;color:#624c38;font-family: 'CormorantGaramond';font-size: 18px;">Nalas Villa</div>
-                            <div style="color:#624c38;padding-top:10px;font-family: 'CormorantGaramond';font-size: 14px;margin-bottom: 30px;">Jl. Nusa Indah, Ketewel, <br>
-                                Kec. Sukawati, Bali, 80825</div>                                
-                                <a style="font-size:14ox;text-decoration:none !important;background:#feccbb;padding:10px 25px;border-radius:100px;color: #624c38;" href="https://www.google.com/maps/dir/Jl.+Nusa+Indah,+Ketewel,+Kec.+Sukawati,+Bali,+80825/@-8.641212,115.2037107,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x2dd215c5f0ff0f29:0xc959c5013ccc72b5!2m2!1d115.2861126!2d-8.6412208?entry=ttu">
-                                    Show Maps
-                                </a>
+                            <div
+                                style="padding-top:20px;color:#624c38;font-family: 'CormorantGaramond';font-size: 18px;">
+                                Nalas Villa</div>
+                            <div
+                                style="color:#624c38;padding-top:10px;font-family: 'CormorantGaramond';font-size: 14px;margin-bottom: 30px;">
+                                Jl. Nusa Indah, Ketewel, <br>
+                                Kec. Sukawati, Bali, 80825</div>
+                            <a style="font-size:14ox;text-decoration:none !important;background:#feccbb;padding:10px 25px;border-radius:100px;color: #624c38;"
+                                href="https://www.google.com/maps/dir/Jl.+Nusa+Indah,+Ketewel,+Kec.+Sukawati,+Bali,+80825/@-8.641212,115.2037107,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x2dd215c5f0ff0f29:0xc959c5013ccc72b5!2m2!1d115.2861126!2d-8.6412208?entry=ttu">
+                                Show Maps
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -151,35 +171,150 @@
         <div class="section overflow-hidden" id="section4">
             <div style="height:100%;max-width: 420px;width:100%;overflow: hidden;display: block;margin: auto;">
                 <div style="height:100%;background-color: #fff;width:100%;overflow: hidden;">
-                    <div style="position: relative;">
-                        <img src="images/header-1.png" style="width:320px;position: absolute;top:-90px;right: -90px;">                        
-                        <div style="z-index:2;position: relative;padding: 5px 20px;">
+                    <div style="position: relative;" class="group-form">
+                        <img src="images/header-1.png" style="width:320px;position: absolute;top:-90px;right: -90px;">
+                        <div style="z-index:2;position: relative;padding: 5px 20px;" class="group-form">
                             <div
-                                style="font-family: 'CormorantGaramond';font-size: 40px;color:#624c38;margin-top: 160px;">RSVP</div>
+                                style="font-family: 'CormorantGaramond';font-size: 35px;color:#624c38;margin-top: 150px;">
+                                RSVP</div>
                         </div>
-                        <div
+                        <div class="group-form"
                             style="z-index:2;margin-left:30px;border-top:2px #e37b3a solid;padding-top: 10px;max-width: 120px;display: block;margin-top: 0 !important;">
                         </div>
-                        <div style="padding:0 30px;background-color: #fff;z-index: 99999;">
-                            <div style="color:#624c38;font-family: 'CormorantGaramond';font-size: 18px;">Kindly confirm by 5 September 2024</div>                            
-                            <div style="font-size:14px;font-family: 'CormorantGaramond';color:#e37b3a;text-align:center;padding: 20px 0;">Dress Code Pastel Color (No Peach / White)</div>
+                        <div class="group-form" style="padding:0 30px;background-color: #fff;z-index: 99999;">
+                            <div style="color:#624c38;font-size:15px;font-family: 'CormorantGaramond';font-size: 18px;">
+                                Kindly confirm by 5 September 2024</div>
+                            <div style="display: flex;">
+                                <div
+                                    style="width:50%;display: flex;flex-direction: column;justify-content: center;align-items: center;padding: 10px 0;">
+                                    <i style="text-align: center;font-size: 24px;" id="icon-1" onclick="changeType(1)"
+                                        class="bi active bi-heart-fill"></i>
+                                    <div
+                                        style="text-align:center;color:#624c38;padding-top: 5px;font-size:12px;font-family: 'CormorantGaramond';">
+                                        Joyfull<br>accept</div>
+                                </div>
+                                <div
+                                    style="width:50%;display: flex;flex-direction: column;justify-content: center;align-items: center;padding: 10px 0;">
+                                    <i style="text-align: center;font-size: 24px;" id="icon-2" class="bi bi-heart-fill"
+                                        onclick="changeType(0)"></i>
+                                    <div
+                                        style="text-align:center;color:#624c38;padding-top: 5px;font-size:12px;font-family: 'CormorantGaramond';">
+                                        regretfully
+                                        <br>decline</div>
+                                </div>
+                            </div>
+                            <div
+                                style="font-size:14px;font-family: 'CormorantGaramond';color:#e37b3a;text-align:center;padding: 5px 0;">
+                                Dress Code Pastel Color (No Peach / White)</div>
                             <div style="display: flex;align-items: center;margin-bottom: 10px;">
-                                <div style="width:80px;color:#624c38;font-weight:600;font-family:'CormorantGaramond';margin-right: 15px;font-size: 14px;">Name</div>
-                                <input type="text" style="background: #f3f3f3;width: 100%;padding: 7px;border-radius: 100px;border: 0 !important;outline: none !important;">
+                                <div
+                                    style="width:80px;color:#624c38;font-weight:600;font-family:'CormorantGaramond';margin-right: 15px;font-size: 14px;">
+                                    Name</div>
+                                <input type="text" id="name"
+                                    style="background: #f3f3f3;width: 100%;padding: 7px;border-radius: 100px;border: 0 !important;outline: none !important;">
+                            </div>
+                            <div style="display: flex;align-items: center;margin-bottom: 10px;" class="group-icon-1">
+                                <div
+                                    style="width:80px;color:#624c38;font-weight:600;font-family:'CormorantGaramond';margin-right: 15px;font-size: 14px;">
+                                    Pax</div>
+                                <input type="number" id="pax"
+                                    style="background: #f3f3f3;width: 100%;padding: 7px;border-radius: 100px;border: 0 !important;outline: none !important;">
                             </div>
                             <div style="display: flex;align-items: center;margin-bottom: 10px;">
-                                <div style="width:80px;color:#624c38;font-weight:600;font-family:'CormorantGaramond';margin-right: 15px;font-size: 14px;">Pax</div>
-                                <input type="text" style="background: #f3f3f3;width: 100%;padding: 7px;border-radius: 100px;border: 0 !important;outline: none !important;">
+                                <div
+                                    style="width:80px;color:#624c38;font-weight:600;font-family:'CormorantGaramond';margin-right: 15px;font-size: 14px;">
+                                    Email</div>
+                                <input type="text" id="email"
+                                    style="background: #f3f3f3;width: 100%;padding: 7px;border-radius: 100px;border: 0 !important;outline: none !important;">
                             </div>
-                            <div style="display: flex;align-items: center;margin-bottom: 10px;">
-                                <div style="width:80px;color:#624c38;font-weight:600;font-family:'CormorantGaramond';margin-right: 15px;font-size: 14px;">Email</div>
-                                <input type="text" style="background: #f3f3f3;width: 100%;padding: 7px;border-radius: 100px;border: 0 !important;outline: none !important;">
+                            <div style="margin-bottom: 10px;" class="group-icon-1">
+                                <div
+                                    style="color:#624c38;font-weight:600;font-family:'CormorantGaramond';font-size: 14px;">
+                                    Dietary Requirements</div>
+                                <input type="text" id="note"
+                                    style="background: #f3f3f3;width: 100%;padding: 7px;border-radius: 100px;border: 0 !important;outline: none !important;">
                             </div>
-                            <div style="margin-bottom: 10px;">
-                                <div style="color:#624c38;font-weight:600;font-family:'CormorantGaramond';font-size: 14px;">Dietary Requirements</div>
-                                <input type="text" style="background: #f3f3f3;width: 100%;padding: 7px;border-radius: 100px;border: 0 !important;outline: none !important;">
+                            <button type="button" onclick="save()" id="btn-save"
+                                style="color:#624c38;font-family: 'CormorantGaramond';background-color: #feccbb;padding: 10px 15px;text-align: center;font-weight: 600;font-size: 14px;margin-top: 10px;width:100%;border: 0 !important;outline: none !important;border-radius: 100px;">SUBMIT</button>
+                        </div>
+                    </div>
+
+                    <div style="position: relative;" class="group-join d-none">
+                        <img src="images/header-1.png" style="width:320px;position: absolute;top:-90px;right: -90px;">
+                        <div style="z-index:2;position: relative;padding: 5px 20px;">
+                            <div
+                                style="text-align:center;font-family: 'CormorantGaramond';font-size: 35px;color:#624c38;margin-top: 150px;">
+                                THANK YOU</div>
+                        </div>
+                        <div style="display: flex;justify-content: center;">
+                            <div
+                                style="z-index:2;margin:auto !important;border-top:2px #e37b3a solid;padding-top: 10px;width: 200px;display: block;margin-top: 0 !important;">
                             </div>
-                            <button type="button" style="color:#624c38;font-family: 'CormorantGaramond';background-color: #feccbb;padding: 10px 15px;text-align: center;font-weight: 600;font-size: 14px;margin-top: 10px;width:100%;border: 0 !important;outline: none !important;border-radius: 100px;">SUBMIT</button>
+                        </div>
+                        <div style="padding:0 30px;background-color: #fff;z-index: 99999;position: relative;">
+                            <div style="color:#624c38;font-family: 'CormorantGaramond';font-size: 12px;">
+                                Dear <span id="join-name-result"></span>,<br><br>
+
+                                Thank you so much for accepting our invitation! We’re absolutely thrilled that you’ll be
+                                joining us on our special day. Your presence will mean the world to us, and we can’t
+                                wait to celebrate together.<br><br>
+
+                                If you have any questions or need any details about the event, just let us know.
+                                <br><br>
+
+                                Looking forward to sharing this joyful occasion with you!
+                                <br><br>
+
+                                Warmest regards,<br>
+
+                                Steve & Vee
+                            </div>
+                            <div style="position: absolute;right: 0;bottom: 40px;">
+                                <a style="text-decoration: none !important;"
+                                    href="javascript:void(0)">
+                                    <div id="regno-join-result"
+                                        style="font-size:18px;font-weight:600;text-align:center;text-decoration:none !important;background:#feccbb;padding:10px 25px;border-radius:100px;color: #624c38;width:40px;border-top-right-radius: 0;border-bottom-right-radius: 0;">
+                                        
+                                    </div>
+                                </a>
+                            </div>
+                            <div
+                            style="font-size:14px;font-family: 'CormorantGaramond';color:#e37b3a;text-align:center;padding-top: 30px;">
+                            Dress Code Pastel Color (No Peach / White)</div>
+                        </div>
+                    </div>
+                    <div style="position: relative;" class="group-not-join d-none">
+                        <img src="images/header-1.png" style="width:320px;position: absolute;top:-90px;right: -90px;">
+                        <div style="z-index:2;position: relative;padding: 5px 20px;">
+                            <div
+                                style="text-align:center;font-family: 'CormorantGaramond';font-size: 35px;color:#624c38;margin-top: 150px;">
+                                THANK YOU</div>
+                        </div>
+                        <div style="display: flex;justify-content: center;">
+                            <div
+                                style="z-index:2;margin:auto !important;border-top:2px #e37b3a solid;padding-top: 10px;width: 200px;display: block;margin-top: 0 !important;">
+                            </div>
+                        </div>
+                        <div style="padding:0 30px;background-color: #fff;z-index: 99999;position: relative;">
+                            <div style="color:#624c38;font-family: 'CormorantGaramond';font-size: 12px;">
+                                Dear <span id="not-join-name-result"></span>,<br><br>
+
+                                Thank you so much for your thoughtful response. We completely understand and are truly
+                                sorry you won’t be able to join us, but your kind words and warm spirit are greatly
+                                appreciated.<br><br>
+
+                                Your support means a lot to us. Feel free to kindly join the ‘Light Up Your Wish’
+                                program.
+                                <br><br>
+
+                                We’re thrilled to feel your presence in spirit on our special day, and be sure to keep
+                                you in our thoughts as we celebrate.
+                                <br><br>
+
+                                Warmest regards,<br>
+
+                                Steve & Vee
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -205,10 +340,10 @@
                                 KEVIN CHANDRA</div>
                             <div
                                 style="padding-top:20px;font-family: 'CormorantGaramond';color: #624c38;text-align: center;font-size: 22px;font-weight: 500;">
-                                733 089 7273&ensp;<i style="color:#e37b3a" class="bi bi-copy"></i></div>
+                                733 089 7273&ensp;<i onclick="copyRekening()" style="color:#e37b3a" class="bi bi-copy"></i></div>
                             <div
                                 style="padding-top:20px;font-family: 'CormorantGaramond';color: #624c38;text-align: center;font-size: 22px;font-weight: 500;">
-                                BANK CENTRAL ASIA><br>(BCA)</div>
+                                BANK CENTRAL ASIA<br>(BCA)</div>
                         </div>
                     </div>
                 </div>
@@ -220,13 +355,16 @@
                     <div style="position: relative;">
                         <img src="images/header-1.png" style="width:320px;position: absolute;top:-90px;right: -90px;">
                         <div style="z-index:2;position: relative;padding: 5px 20px;">
-                            <div style="font-family: 'Gistesy';font-size: 60px;color:#624c38;margin-top: 100px;line-height: 1;">light
+                            <div
+                                style="font-family: 'Gistesy';font-size: 60px;color:#624c38;margin-top: 100px;line-height: 1;">
+                                light
                                 up<br>your wish</div>
                         </div>
                         <div
                             style="z-index:2;margin-left:15px;border-top:2px #e37b3a solid;padding-top: 10px;max-width: 150px;display: block;margin-top: 15px !important;">
                         </div>
-                        <div style="padding:0 15px;background-color: #fff;z-index: 99999;margin-top: 10px;">
+                        <div
+                            style="padding:0 15px;background-color: #fff;z-index: 99999;margin-top: 10px;position: relative;">
                             <div style="color:#624c38;font-family: 'CormorantGaramond';font-size: 12px;">
                                 Dear Family and Friends,<br><br>
 
@@ -240,12 +378,20 @@
                                 our wedding day, joining the hopes and dreams of ours in a beautiful display of unity
                                 and love.<br><br>
 
-                                We are deeply grateful for your love and generosity. May our wish(es) come(s) true!<br><br>
+                                We are deeply grateful for your love and generosity. May our wish(es) come(s)
+                                true!<br><br>
 
                                 With love and gratitude,
                                 Steve & Vee
-
-
+                            </div>
+                            <div style="display: flex;justify-content: flex-end;">
+                                <a style="text-decoration: none !important;"
+                                    href="https://api.whatsapp.com/send/?phone=628118000329&text=Hi+Lamp+House+team%2C+please+%22light+up+my+wish%22+below+for+14+Sep+2024+%3A&type=phone_number&app_absent=0">
+                                    <div
+                                        style="font-size:12px;text-align:center;text-decoration:none !important;background:#feccbb;padding:10px 25px;border-radius:100px;color: #624c38;width:100px">
+                                        Click to share your wish
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -253,9 +399,97 @@
             </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     <script src="assets/fullPage.js-3.1.2/dist/fullpage.min.js"></script>
     <script>
         var myFullpage = new fullpage('#fullpage');
+        typeRegister = 1;
+        $(document).ready(function () {
+            $.ajax({
+                url: 'https://api.ezlink.dev/steven/dash/report',
+                type: 'GET',
+                data: {
+                    status: 2,
+                }
+            })
+        })
+
+        function changeType(type) {
+            typeRegister = type
+            if (type == 1) {
+                $("#icon-1").addClass('active')
+                $("#icon-2").removeClass('active')
+                $(".group-icon-1").removeClass('d-none');
+            } else {
+                $("#icon-2").addClass('active')
+                $("#icon-1").removeClass('active')
+                $(".group-icon-1").addClass('d-none');
+            }
+        }
+
+        function save() {
+
+
+            let data = {
+                guestname: $("#name").val(),
+                pax: typeRegister == 1 ? $("#pax").val() : '',
+                email: $("#email").val(),
+                note: typeRegister == 1 ? $("#note").val() : ''
+            }
+
+            if (!data.guestname) {
+                Swal.fire("Name cannot be empty!");
+                return false;
+            }
+            if (!data.email) {
+                Swal.fire("Email cannot be empty!");
+                return false;
+            }
+
+            if (typeRegister == 1) {
+                if (!data.pax) {
+                    Swal.fire("Pax cannot be empty!");
+                    return false;
+                }
+            }
+
+            $("#btn-save").prop('disabled', true).html('Processing...');
+            let formData = JSON.stringify(data);
+            $.ajax({
+                url: typeRegister == 1 ? "https://api.ezlink.dev/steven/web/rsvp" :
+                    'https://api.ezlink.dev/steven/web/norsvp',
+                type: "post",
+                data: formData,
+                success: function (response) {
+                    $("#btn-save").prop('disabled', false).html('SUBMIT');
+                    $(".group-form").addClass('d-none');
+                    // You will get response from your PHP page (what you echo or print)
+
+                    if (typeRegister == 1) {
+                        $(".group-join").removeClass('d-none');
+                        $("#regno-join-result").html(response.data.regno);
+                        $("#join-name-result").html(response.data.guestname);
+                    } else {
+                        $(".group-not-join").removeClass('d-none');
+                        $("#not-join-name-result").html(response.data.guestname);
+                    }
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    $("#btn-save").prop('disabled', false).html('SUBMIT');
+                    console.log(textStatus, errorThrown);
+                    Swal.fire("Error, Please try again!");
+                }
+            });
+        }
+
+        function copyRekening(){
+            navigator.clipboard.writeText('7330897273');
+            Swal.fire("Copied!");
+        }
     </script>
 </body>
 
