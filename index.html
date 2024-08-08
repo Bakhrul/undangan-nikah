@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
 
     <title>Undangan</title>
     <link rel="stylesheet" href="fonts/Gistesy.ttf">
@@ -218,11 +218,12 @@
                                 <div
                                     style="width:80px;color:#624c38;font-weight:600;font-family:'CormorantGaramond';margin-right: 15px;font-size: 14px;">
                                     Pax</div>
-                                    <select style="background: #f3f3f3;width: 100%;padding: 7px;border-radius: 100px;border: 0 !important;outline: none !important;">
-                                        <option value="1" selected>1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                    </select>                                
+                                <select
+                                    style="background: #f3f3f3;width: 100%;padding: 7px;border-radius: 100px;border: 0 !important;outline: none !important;">
+                                    <option value="1" selected>1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
                             </div>
                             <div style="display: flex;align-items: center;margin-bottom: 10px;">
                                 <div
@@ -409,11 +410,11 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <script src="assets/fullPage.js-3.1.2/dist/fullpage.min.js"></script>
-    <script>
+    <script type="text/javascript">
         var myFullpage = new fullpage('#fullpage');
-        typeRegister = 1;
+        typeRegister = 1;    
         $(document).ready(function () {
-            
+
 
         })
 
