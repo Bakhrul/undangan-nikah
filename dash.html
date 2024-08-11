@@ -52,7 +52,8 @@
                                 <th class="text-center" style="position: sticky;top:0">No</th>
                                 <th style="position: sticky;top:0">Guest</th>
                                 <th style="position: sticky;top:0">Email</th>
-                                <th style="position: sticky;top:0">Pax</th>
+                                <th class="text-center" style="position: sticky;top:0">RSVP</th>
+                                <th class="text-center" style="position: sticky;top:0">Pax</th>
                                 <th style="position: sticky;top:0">Note</th>
                                 <th style="position: sticky;top:0" class="text-center">Status</th>
                             </tr>
@@ -99,7 +100,7 @@
                             status = `<span class="badge text-bg-danger">Decline</span>`
                         }
                         $("#tbody-list").append(
-                            `<tr><td class="text-center">${i + 1}</td><td>${context.guest}</td><td>${context.email}</td><td>${context.pax}</td><td>${context.note}</td><td class="text-center">${status}</td></tr>`
+                            `<tr><td class="text-center">${i + 1}</td><td>${context.guest}</td><td>${context.email}</td><td class="text-center">${context.rsvpno}</td><td class="text-center">${context.pax}</td><td>${context.note}</td><td class="text-center">${status}</td></tr>`
                         )
                     }
                 },
